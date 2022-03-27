@@ -1,0 +1,17 @@
+.form{
+  &__wrapper{
+    width: 300px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 2px 16px rgba(33, 43, 54, 0.08);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p{
+      margin-top: 20px;
+    }
+  }
+    
+}
