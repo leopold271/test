@@ -1,4 +1,10 @@
 .form{
+  &__position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
   &__wrapper{
     width: 300px;
     background-color: #fff;
@@ -10,8 +16,20 @@
     justify-content: center;
     align-items: center;
     p{
+      margin-bottom: 20px;
+    }
+    button {
       margin-top: 20px;
     }
+    form{
+      display: flex;
+      flex-direction: column;
+      button{
+        align-self: flex-end;
+      }
+    }
+  }    
+  &__visibilityButton{
+    cursor: pointer;
   }
-    
 }
